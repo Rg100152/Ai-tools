@@ -1,0 +1,21 @@
+{
+  "tools": [
+    {
+      "id": 1,
+      "name": "DeepSeek AI",
+      "url": "https://chat.deepseek.com",
+      "type": "Chat Assistant",
+      "price": "Free",
+      "description": "Advanced AI for coding and analysis",
+      "features": ["Code Generation", "Math", "Reasoning"],
+      "rating": 4.8,
+      "users": "10M+",
+      "api_available": true,
+      "open_source": false,
+      "platforms": ["Web", "Mobile", "CLI"],
+      "languages": ["English", "Chinese", "Hindi"],
+      "tags": ["chatbot", "coding", "analysis"],
+      "last_updated": "2024-12-22"
+    }
+  ]
+}

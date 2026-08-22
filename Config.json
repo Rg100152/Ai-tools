@@ -1,0 +1,430 @@
+{
+  "app_name": "AI Tools Launcher",
+  "version": "3.0.0",
+  "build": "2024.12.22",
+  "codename": "Ultimate Linux Edition",
+  
+  "developer": {
+    "name": "Raj Gautam",
+    "github": "https://github.com/Rg100152",
+    "email": "rajgautam.dev@gmail.com",
+    "university": "Veer Bahadur Singh Purvanchal University",
+    "university_short": "VBSPU",
+    "location": "Jaunpur, Uttar Pradesh, India",
+    "course": "Bachelor of Computer Applications (BCA)",
+    "motto": "Learn. Build. Experiment. Improve.",
+    "philosophy": "The best way to learn technology is to build, break, understand, and improve.",
+    "interests": [
+      "Software Development",
+      "Web Technologies",
+      "Cybersecurity",
+      "Artificial Intelligence",
+      "Linux Systems",
+      "Open Source"
+    ],
+    "skills": {
+      "programming_languages": ["Python", "JavaScript", "HTML", "CSS", "SQL"],
+      "technologies": ["Linux", "Git", "Docker", "Node.js", "React"],
+      "databases": ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+      "ai_tools": ["GPT", "Claude", "Gemini", "DeepSeek", "Midjourney"],
+      "cybersecurity": ["Network Security", "Ethical Hacking", "Penetration Testing"],
+      "development": ["Web Apps", "CLI Tools", "Automation Scripts", "AI Integration"]
+    },
+    "social_links": {
+      "github": "https://github.com/Rg100152",
+      "linkedin": "https://linkedin.com/in/rajgautam",
+      "twitter": "https://twitter.com/rajgautam",
+      "portfolio": "https://rajgautam.dev"
+    }
+  },
+
+  "app_settings": {
+    "theme": "matrix",
+    "themes": {
+      "matrix": {
+        "primary_color": "BRIGHT_GREEN",
+        "secondary_color": "CYAN",
+        "accent_color": "BRIGHT_YELLOW",
+        "background_color": "BLACK",
+        "text_color": "WHITE",
+        "border_color": "BRIGHT_RED",
+        "animation": true,
+        "matrix_effect": true
+      },
+      "cyberpunk": {
+        "primary_color": "BRIGHT_MAGENTA",
+        "secondary_color": "BRIGHT_CYAN",
+        "accent_color": "BRIGHT_YELLOW",
+        "background_color": "BLACK",
+        "text_color": "WHITE",
+        "border_color": "BRIGHT_MAGENTA",
+        "animation": true,
+        "matrix_effect": true
+      },
+      "blood": {
+        "primary_color": "BRIGHT_RED",
+        "secondary_color": "RED",
+        "accent_color": "YELLOW",
+        "background_color": "BLACK",
+        "text_color": "WHITE",
+        "border_color": "BRIGHT_RED",
+        "animation": true,
+        "matrix_effect": true
+      },
+      "ocean": {
+        "primary_color": "BRIGHT_BLUE",
+        "secondary_color": "CYAN",
+        "accent_color": "BRIGHT_WHITE",
+        "background_color": "BLACK",
+        "text_color": "WHITE",
+        "border_color": "BRIGHT_BLUE",
+        "animation": true,
+        "matrix_effect": true
+      },
+      "forest": {
+        "primary_color": "GREEN",
+        "secondary_color": "BRIGHT_GREEN",
+        "accent_color": "YELLOW",
+        "background_color": "BLACK",
+        "text_color": "WHITE",
+        "border_color": "GREEN",
+        "animation": true,
+        "matrix_effect": true
+      }
+    },
+    
+    "animation_speed": "fast",
+    "animation_speeds": {
+      "slow": 0.1,
+      "normal": 0.05,
+      "fast": 0.02,
+      "ultra": 0.01
+    },
+    
+    "show_price": true,
+    "show_description": true,
+    "show_type": true,
+    "show_url": true,
+    "show_animation": true,
+    "show_matrix_effect": true,
+    "show_loading_animation": true,
+    "show_system_info": true,
+    "show_tool_count": true,
+    "show_category_count": true,
+    "show_favorites_count": true,
+    "show_history_count": true,
+    "show_date_time": true,
+    "show_developer_info": true,
+    
+    "browser": "default",
+    "browsers": {
+      "default": "xdg-open",
+      "chrome": "google-chrome",
+      "chromium": "chromium-browser",
+      "firefox": "firefox",
+      "brave": "brave-browser",
+      "edge": "microsoft-edge",
+      "opera": "opera",
+      "vivaldi": "vivaldi"
+    },
+    
+    "max_history": 20,
+    "max_favorites": 50,
+    "items_per_page": 20,
+    
+    "auto_update_check": true,
+    "update_check_interval": "daily",
+    "check_updates_on_start": true,
+    
+    "save_history": true,
+    "save_favorites": true,
+    "history_file": "history.json",
+    "favorites_file": "favorites.json",
+    "config_file": "config.json",
+    "database_file": "tools_database.json",
+    "log_file": "ai_tools.log",
+    
+    "language": "english",
+    "languages": ["english", "hindi"],
+    
+    "keyboard_shortcuts": {
+      "search": "s",
+      "favorites": "f",
+      "history": "h",
+      "random": "r",
+      "categories": "c",
+      "help": "?",
+      "exit": "0",
+      "info": "99",
+      "next_page": "n",
+      "previous_page": "p",
+      "clear_screen": "l",
+      "toggle_favorite": "t",
+      "quick_access": "q",
+      "all_tools": "a",
+      "update": "u"
+    }
+  },
+
+  "categories": [
+    {
+      "name": "Chat Assistant",
+      "icon": "💬",
+      "description": "AI chatbots and conversational assistants",
+      "color": "BRIGHT_GREEN"
+    },
+    {
+      "name": "Search Engine",
+      "icon": "🔍",
+      "description": "AI-powered search and discovery tools",
+      "color": "BRIGHT_BLUE"
+    },
+    {
+      "name": "Writing",
+      "icon": "✍️",
+      "description": "AI writing, editing, and content creation",
+      "color": "BRIGHT_CYAN"
+    },
+    {
+      "name": "Image Generation",
+      "icon": "🎨",
+      "description": "AI image and art generation tools",
+      "color": "BRIGHT_MAGENTA"
+    },
+    {
+      "name": "Video Generation",
+      "icon": "🎬",
+      "description": "AI video creation and editing tools",
+      "color": "BRIGHT_RED"
+    },
+    {
+      "name": "Voice Generation",
+      "icon": "🎤",
+      "description": "AI voice synthesis and cloning",
+      "color": "BRIGHT_YELLOW"
+    },
+    {
+      "name": "Music Generation",
+      "icon": "🎵",
+      "description": "AI music composition and generation",
+      "color": "GREEN"
+    },
+    {
+      "name": "Transcription",
+      "icon": "📝",
+      "description": "AI audio-to-text transcription",
+      "color": "CYAN"
+    },
+    {
+      "name": "Audio Editing",
+      "icon": "🎧",
+      "description": "AI audio enhancement and editing",
+      "color": "BLUE"
+    },
+    {
+      "name": "Code Assistant",
+      "icon": "💻",
+      "description": "AI coding and development assistants",
+      "color": "BRIGHT_GREEN"
+    },
+    {
+      "name": "Development",
+      "icon": "🔧",
+      "description": "AI development platforms and APIs",
+      "color": "BRIGHT_BLUE"
+    },
+    {
+      "name": "Productivity",
+      "icon": "📊",
+      "description": "AI productivity and workflow tools",
+      "color": "BRIGHT_CYAN"
+    },
+    {
+      "name": "Presentations",
+      "icon": "📽️",
+      "description": "AI presentation and slide creation",
+      "color": "BRIGHT_MAGENTA"
+    },
+    {
+      "name": "Website Builder",
+      "icon": "🌐",
+      "description": "AI website design and development",
+      "color": "BRIGHT_RED"
+    },
+    {
+      "name": "Automation",
+      "icon": "⚡",
+      "description": "AI automation and workflow tools",
+      "color": "BRIGHT_YELLOW"
+    },
+    {
+      "name": "Autonomous AI",
+      "icon": "🤖",
+      "description": "Autonomous AI agents and frameworks",
+      "color": "GREEN"
+    }
+  ],
+
+  "quick_access_tools": [
+    {
+      "name": "DeepSeek AI",
+      "url": "https://chat.deepseek.com",
+      "type": "Chat Assistant",
+      "priority": 1
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://chat.openai.com",
+      "type": "Chat Assistant",
+      "priority": 2
+    },
+    {
+      "name": "Claude AI",
+      "url": "https://claude.ai",
+      "type": "Chat Assistant",
+      "priority": 3
+    },
+    {
+      "name": "Google Gemini",
+      "url": "https://gemini.google.com",
+      "type": "Chat Assistant",
+      "priority": 4
+    },
+    {
+      "name": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com",
+      "type": "Chat Assistant",
+      "priority": 5
+    },
+    {
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com",
+      "type": "Image Generation",
+      "priority": 6
+    },
+    {
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "type": "Code Assistant",
+      "priority": 7
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co",
+      "type": "Development",
+      "priority": 8
+    },
+    {
+      "name": "Perplexity AI",
+      "url": "https://www.perplexity.ai",
+      "type": "Search Engine",
+      "priority": 9
+    },
+    {
+      "name": "Suno AI",
+      "url": "https://suno.com",
+      "type": "Music Generation",
+      "priority": 10
+    }
+  ],
+
+  "system_requirements": {
+    "operating_system": ["Linux", "macOS", "Windows"],
+    "python_version": "3.6+",
+    "terminal": ["bash", "zsh", "fish", "powershell"],
+    "internet_connection": true,
+    "display": "ANSI color support",
+    "minimum_screen_width": 80,
+    "minimum_screen_height": 24
+  },
+
+  "features": {
+    "quick_access": true,
+    "category_browsing": true,
+    "search": true,
+    "favorites": true,
+    "history": true,
+    "random_tool": true,
+    "help_menu": true,
+    "developer_info": true,
+    "matrix_effect": true,
+    "loading_animation": true,
+    "auto_update": true,
+    "export_list": true,
+    "import_favorites": true,
+    "clear_screen": true,
+    "keyboard_shortcuts": true,
+    "paginated_menu": true,
+    "tool_description": true,
+    "price_display": true,
+    "url_display": true,
+    "type_filtering": true,
+    "multi_language": false,
+    "custom_themes": true,
+    "command_line_args": true,
+    "log_usage": true
+  },
+
+  "logging": {
+    "enabled": true,
+    "level": "INFO",
+    "levels": ["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "ai_tools.log",
+    "max_file_size": "10MB",
+    "backup_count": 5
+  },
+
+  "notifications": {
+    "on_tool_open": true,
+    "on_favorite_add": true,
+    "on_favorite_remove": true,
+    "on_update_available": true,
+    "on_error": true,
+    "sound_enabled": false,
+    "desktop_notifications": false
+  },
+
+  "network": {
+    "timeout": 10,
+    "retry_attempts": 3,
+    "check_ssl": true,
+    "proxy": "",
+    "user_agent": "AI-Tools-Launcher/3.0.0"
+  },
+
+  "export_options": {
+    "format": ["txt", "csv", "json", "html"],
+    "include_description": true,
+    "include_price": true,
+    "include_url": true,
+    "include_type": true,
+    "sort_by": ["name", "type", "price"],
+    "filename_pattern": "ai_tools_export_{timestamp}.{format}"
+  },
+
+  "customization": {
+    "banner_text": "AI TOOLS LAUNCHER",
+    "custom_logo": "",
+    "custom_footer": "Powered by Raj Gautam | VBSPU Jaunpur",
+    "welcome_message": "Welcome to AI Tools Launcher!",
+    "exit_message": "Thank you for using AI Tools Launcher!",
+    "prompt_symbol": "╼",
+    "prompt_user": "root",
+    "prompt_host": "ai-tools",
+    "prompt_path": "~"
+  },
+
+  "advanced": {
+    "debug_mode": false,
+    "verbose": false,
+    "safe_mode": true,
+    "experimental_features": false,
+    "cache_enabled": true,
+    "cache_duration": 3600,
+    "concurrent_requests": 5,
+    "max_threads": 10,
+    "rate_limit": 60,
+    "rate_limit_window": "minute"
+  }
+}

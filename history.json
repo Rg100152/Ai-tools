@@ -1,0 +1,408 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-12-22T10:30:00Z",
+  "total_sessions": 45,
+  "total_opens": 570,
+  
+  "user_statistics": {
+    "total_tools_used": 25,
+    "unique_tools_used": 18,
+    "most_used_tool": {
+      "id": 56,
+      "name": "GitHub Copilot",
+      "use_count": 200
+    },
+    "average_daily_opens": 12.5,
+    "average_session_duration": "15 minutes",
+    "total_time_spent": "11 hours 15 minutes",
+    "active_days": 30,
+    "streak_days": 7,
+    "longest_streak": 15,
+    "favorite_category": "Code Assistant",
+    "favorite_time": "10:00 AM",
+    "favorite_day": "Monday"
+  },
+  
+  "history": [
+    {
+      "id": 570,
+      "tool_id": 2,
+      "tool_name": "DeepSeek AI",
+      "tool_type": "Chat Assistant",
+      "tool_url": "https://chat.deepseek.com",
+      "timestamp": "2024-12-22T10:30:00Z",
+      "date": "2024-12-22",
+      "time": "10:30:00",
+      "day": "Sunday",
+      "session_id": "sess_20241222_001",
+      "duration": "5 minutes",
+      "action": "open",
+      "status": "success",
+      "from": "quick_access",
+      "device": "linux",
+      "browser": "firefox",
+      "network": "wifi",
+      "location": "home"
+    },
+    {
+      "id": 569,
+      "tool_id": 1,
+      "tool_name": "ChatGPT",
+      "tool_type": "Chat Assistant",
+      "tool_url": "https://chat.openai.com",
+      "timestamp": "2024-12-22T09:45:00Z",
+      "date": "2024-12-22",
+      "time": "09:45:00",
+      "day": "Sunday",
+      "session_id": "sess_20241222_001",
+      "duration": "8 minutes",
+      "action": "open",
+      "status": "success",
+      "from": "favorites",
+      "device": "linux",
+      "browser": "firefox",
+      "network": "wifi",
+      "location": "home"
+    },
+    {
+      "id": 568,
+      "tool_id": 56,
+      "tool_name": "GitHub Copilot",
+      "tool_type": "Code Assistant",
+      "tool_url": "https://github.com/features/copilot",
+      "timestamp": "2024-12-22T09:00:00Z",
+      "date": "2024-12-22",
+      "time": "09:00:00",
+      "day": "Sunday",
+      "session_id": "sess_20241222_001",
+      "duration": "20 minutes",
+      "action": "open",
+      "status": "success",
+      "from": "quick_access",
+      "device": "linux",
+      "browser": "firefox",
+      "network": "wifi",
+      "location": "home"
+    },
+    {
+      "id": 567,
+      "tool_id": 10,
+      "tool_name": "Perplexity AI",
+      "tool_type": "Search Engine",
+      "tool_url": "https://www.perplexity.ai",
+      "timestamp": "2024-12-21T18:30:00Z",
+      "date": "2024-12-21",
+      "time": "18:30:00",
+      "day": "Saturday",
+      "session_id": "sess_20241221_002",
+      "duration": "12 minutes",
+      "action": "open",
+      "status": "success",
+      "from": "search",
+      "device": "linux",
+      "browser": "chrome",
+      "network": "ethernet",
+      "location": "college"
+    },
+    {
+      "id": 566,
+      "tool_id": 26,
+      "tool_name": "Midjourney",
+      "tool_type": "Image Generation",
+      "tool_url": "https://www.midjourney.com",
+      "timestamp": "2024-12-21T15:00:00Z",
+      "date": "2024-12-21",
+      "time": "15:00:00",
+      "day": "Saturday",
+      "session_id": "sess_20241221_002",
+      "duration": "25 minutes",
+      "action": "open",
+      "status": "success",
+      "from": "category",
+      "device": "linux",
+      "browser": "chrome",
+      "network": "ethernet",
+      "location": "college"
+    },
+    {
+      "id": 565,
+      "tool_id": 3,
+      "tool_name": "Claude AI",
+      "tool_type": "Chat Assistant",
+      "tool_url": "https://claude.ai",
+      "timestamp": "2024-12-21T11:00:00Z",
+      "date": "2024-12-21",
+      "time": "11:00:00",
+      "day": "Saturday",
+      "session_id": "sess_20241221_001",
+      "duration": "15 minutes",
+      "action": "open",
+      "status": "success",
+      "from": "favorites",
+      "device": "linux",
+      "browser": "firefox",
+      "network": "wifi",
+      "location": "home"
+    },
+    {
+      "id": 564,
+      "tool_id": 71,
+      "tool_name": "Hugging Face",
+      "tool_type": "Development",
+      "tool_url": "https://huggingface.co",
+      "timestamp": "2024-12-20T16:00:00Z",
+      "date": "2024-12-20",
+      "time": "16:00:00",
+      "day": "Friday",
+      "session_id": "sess_20241220_002",
+      "duration": "30 minutes",
+      "action": "open",
+      "status": "success",
+      "from": "search",
+      "device": "linux",
+      "browser": "firefox",
+      "network": "wifi",
+      "location": "home"
+    },
+    {
+      "id": 563,
+      "tool_id": 48,
+      "tool_name": "Suno AI",
+      "tool_type": "Music Generation",
+      "tool_url": "https://suno.com",
+      "timestamp": "2024-12-20T14:00:00Z",
+      "date": "2024-12-20",
+      "time": "14:00:00",
+      "day": "Friday",
+      "session_id": "sess_20241220_001",
+      "duration": "10 minutes",
+      "action": "open",
+      "status": "success",
+      "from": "random",
+      "device": "linux",
+      "browser": "chrome",
+      "network": "wifi",
+      "location": "home"
+    },
+    {
+      "id": 562,
+      "tool_id": 46,
+      "tool_name": "ElevenLabs",
+      "tool_type": "Voice Generation",
+      "tool_url": "https://elevenlabs.io",
+      "timestamp": "2024-12-19T13:00:00Z",
+      "date": "2024-12-19",
+      "time": "13:00:00",
+      "day": "Thursday",
+      "session_id": "sess_20241219_001",
+      "duration": "18 minutes",
+      "action": "open",
+      "status": "success",
+      "from": "favorites",
+      "device": "linux",
+      "browser": "firefox",
+      "network": "wifi",
+      "location": "home"
+    },
+    {
+      "id": 561,
+      "tool_id": 87,
+      "tool_name": "Beautiful.ai",
+      "tool_type": "Presentations",
+      "tool_url": "https://www.beautiful.ai",
+      "timestamp": "2024-12-18T10:00:00Z",
+      "date": "2024-12-18",
+      "time": "10:00:00",
+      "day": "Wednesday",
+      "session_id": "sess_20241218_001",
+      "duration": "45 minutes",
+      "action": "open",
+      "status": "success",
+      "from": "category",
+      "device": "linux",
+      "browser": "chrome",
+      "network": "wifi",
+      "location": "college"
+    }
+  ],
+  
+  "sessions": {
+    "sess_20241222_001": {
+      "session_id": "sess_20241222_001",
+      "start_time": "2024-12-22T09:00:00Z",
+      "end_time": "2024-12-22T10:35:00Z",
+      "duration": "1 hour 35 minutes",
+      "tools_opened": 3,
+      "tools_used": [
+        {
+          "tool_id": 56,
+          "tool_name": "GitHub Copilot",
+          "opens": 1,
+          "duration": "20 minutes"
+        },
+        {
+          "tool_id": 1,
+          "tool_name": "ChatGPT",
+          "opens": 1,
+          "duration": "8 minutes"
+        },
+        {
+          "tool_id": 2,
+          "tool_name": "DeepSeek AI",
+          "opens": 1,
+          "duration": "5 minutes"
+        }
+      ],
+      "device": "linux",
+      "os_version": "Ubuntu 24.04",
+      "terminal": "bash",
+      "screen_resolution": "1920x1080"
+    },
+    "sess_20241221_002": {
+      "session_id": "sess_20241221_002",
+      "start_time": "2024-12-21T14:00:00Z",
+      "end_time": "2024-12-21T18:45:00Z",
+      "duration": "4 hours 45 minutes",
+      "tools_opened": 2,
+      "tools_used": [
+        {
+          "tool_id": 26,
+          "tool_name": "Midjourney",
+          "opens": 1,
+          "duration": "25 minutes"
+        },
+        {
+          "tool_id": 10,
+          "tool_name": "Perplexity AI",
+          "opens": 1,
+          "duration": "12 minutes"
+        }
+      ],
+      "device": "linux",
+      "os_version": "Ubuntu 24.04",
+      "terminal": "bash",
+      "screen_resolution": "1920x1080"
+    }
+  },
+  
+  "daily_stats": {
+    "2024-12-22": {
+      "date": "2024-12-22",
+      "day": "Sunday",
+      "total_opens": 3,
+      "unique_tools": 3,
+      "most_used": "GitHub Copilot",
+      "total_duration": "33 minutes",
+      "categories_used": ["Code Assistant", "Chat Assistant"]
+    },
+    "2024-12-21": {
+      "date": "2024-12-21",
+      "day": "Saturday",
+      "total_opens": 3,
+      "unique_tools": 3,
+      "most_used": "Midjourney",
+      "total_duration": "52 minutes",
+      "categories_used": ["Image Generation", "Search Engine", "Chat Assistant"]
+    },
+    "2024-12-20": {
+      "date": "2024-12-20",
+      "day": "Friday",
+      "total_opens": 2,
+      "unique_tools": 2,
+      "most_used": "Hugging Face",
+      "total_duration": "40 minutes",
+      "categories_used": ["Development", "Music Generation"]
+    }
+  },
+  
+  "weekly_stats": {
+    "week_51_2024": {
+      "week_number": 51,
+      "year": 2024,
+      "start_date": "2024-12-16",
+      "end_date": "2024-12-22",
+      "total_opens": 10,
+      "unique_tools": 8,
+      "most_used": "GitHub Copilot",
+      "total_duration": "2 hours 45 minutes",
+      "top_categories": ["Code Assistant", "Chat Assistant", "Development"]
+    }
+  },
+  
+  "monthly_stats": {
+    "december_2024": {
+      "month": "December",
+      "year": 2024,
+      "total_opens": 570,
+      "unique_tools": 18,
+      "most_used": "GitHub Copilot",
+      "total_duration": "11 hours 15 minutes",
+      "average_daily_opens": 12.5,
+      "top_categories": ["Code Assistant", "Chat Assistant", "Development", "Image Generation"]
+    }
+  },
+  
+  "search_history": [
+    {
+      "query": "coding assistant",
+      "timestamp": "2024-12-22T08:30:00Z",
+      "results_count": 15,
+      "clicked_tool": "GitHub Copilot"
+    },
+    {
+      "query": "image generation",
+      "timestamp": "2024-12-21T14:00:00Z",
+      "results_count": 20,
+      "clicked_tool": "Midjourney"
+    },
+    {
+      "query": "music",
+      "timestamp": "2024-12-20T13:45:00Z",
+      "results_count": 8,
+      "clicked_tool": "Suno AI"
+    }
+  ],
+  
+  "category_history": {
+    "Chat Assistant": {
+      "total_opens": 250,
+      "last_used": "2024-12-22T10:30:00Z",
+      "most_used": "ChatGPT"
+    },
+    "Code Assistant": {
+      "total_opens": 200,
+      "last_used": "2024-12-22T09:00:00Z",
+      "most_used": "GitHub Copilot"
+    },
+    "Development": {
+      "total_opens": 50,
+      "last_used": "2024-12-20T16:00:00Z",
+      "most_used": "Hugging Face"
+    }
+  },
+  
+  "errors": [
+    {
+      "timestamp": "2024-12-22T09:00:00Z",
+      "error_type": "network_timeout",
+      "tool_id": 56,
+      "tool_name": "GitHub Copilot",
+      "error_message": "Connection timed out after 10 seconds",
+      "retry_successful": true
+    }
+  ],
+  
+  "settings": {
+    "max_history_entries": 1000,
+    "clear_on_exit": false,
+    "save_interval": 60,
+    "track_duration": true,
+    "track_location": true,
+    "track_device": true,
+    "track_network": true,
+    "track_browser": true,
+    "export_format": "json",
+    "auto_backup": true,
+    "backup_interval": "daily"
+  }
+}
